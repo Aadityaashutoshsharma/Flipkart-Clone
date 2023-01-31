@@ -10,6 +10,17 @@ header{
     background-color: var(--main-bg-color);
     font-family: 'Lato', sans-serif;
 }
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
 nav ul{
     height: 58px;
     display: flex;
@@ -23,6 +34,22 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 493px;
+    height: 27px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
 }
 footer{
     height: 12vh;
