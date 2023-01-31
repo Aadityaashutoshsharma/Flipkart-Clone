@@ -58,15 +58,21 @@ nav ul li a:hover{
 .slider{
     width: 80vw;
     margin: 12px auto;
+    overflow: hidden;
 }
 .card{
     max-width: 90vw;
-    margin: auto;
+    margin: 30px auto;
+}
+.all-cards{
+    display: flex;
+    justify-content: center;
 }
 .card-item{
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0 15px;
 } 
 .card h2{
     font-family: 'Ubuntu', sans-serif;
