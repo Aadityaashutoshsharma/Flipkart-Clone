@@ -14,6 +14,7 @@ header{
 }
 nav{
     display: flex;
+    min-width: 100vw;
 }
 .logo{
     display: flex;
@@ -45,7 +46,7 @@ nav ul li a:hover{
     align-items: center;
 }
 .search input{
-    width: 493px;
+    width: 30vw;
     height: 27px;
     border-radius: 2px;
     margin: 0 16px 0 56px;
@@ -55,24 +56,29 @@ nav ul li a:hover{
     font-family: 'Libre Baskerville', serif;
     font-weight: 900px;
 }
-.slider{
-    width: 80vw;
+.slider img{
     margin: 12px auto;
-    overflow: hidden;
+    display: flex;
+    width: 80vw;
 }
 .card{
-    max-width: 90vw;
     margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
 }
 .all-cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 .card-item{
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0 15px;
+    cursor: pointer;
 } 
 .card h2{
     font-family: 'Ubuntu', sans-serif;
