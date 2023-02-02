@@ -86,7 +86,14 @@ nav ul li a:hover{
     background-color: #22CB5C;
     color: white;
     font-weight: bolder;
-    box-shadow: 0 8px 16px 0  #22CB5C, 0 12px 40px 0 #22CB5C;
+    box-shadow: 0 8px 16px 0  #22CB5C, 0 12px 40px 0 #22CB5C;   
+}
+.card-item img{
+    transition: width 2s height 2s;
+}
+.card-item img:hover{
+    width: 300px;
+    height: 300px;
 } 
 .card h2{
     font-family: 'Ubuntu', sans-serif;
